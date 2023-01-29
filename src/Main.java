@@ -68,9 +68,11 @@ public class Main {
         var fighter1 = 78.2;
         var fighter2 = 82.7;
         var TotalWeight = (fighter1 + fighter2);
-        System.out.println(TotalWeight);
-        System.out.println(fighter2 - fighter1);
-        System.out.println();
+        var WeightDifferent = (fighter2 - fighter1);
+        System.out.println("Вес обоих бойцов составляет " + TotalWeight);
+        System.out.println("Разница в весе двух бойцов составляет " + WeightDifferent);
+    }
+    public static void task7() {
+        System.out.println("Задача 7");
     }
 }
-
