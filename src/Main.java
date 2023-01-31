@@ -90,9 +90,10 @@ public class Main {
         var NumberOfEmployees = (NumberOfHour / WorkingDay);
         var IncreasesNumberOfEmployees = 94;
         var TotalNumberOfEmployees = (NumberOfEmployees + IncreasesNumberOfEmployees);
-        var RemainingWorkingHours = (NumberOfHour % TotalNumberOfEmployees);
+        var RemainingWorkingHours = (WorkingDay * TotalNumberOfEmployees);
         System.out.println("Всего работников в компании —  "+ NumberOfEmployees);
         System.out.println("Если в компании работает " + TotalNumberOfEmployees +  " человека" + " то" + " всего " + RemainingWorkingHours + " часов работы может быть поделено между ними");
     }
+
 
 }
